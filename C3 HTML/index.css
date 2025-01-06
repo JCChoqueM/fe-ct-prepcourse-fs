@@ -1,0 +1,101 @@
+body {
+  width: 1600px;
+
+}
+
+header {
+  height: 41px;
+  margin-left: 191px;
+  margin-right: 192px;
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  width: 545px;
+  height: 23px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+/* top nav */
+
+nav ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 22.59px;
+  color: #1f1534;
+  line-height: 23px;
+  font-family: 'Mulish', serif;
+}
+
+nav ul li a:hover {
+  font-weight: 700;
+}
+
+.articulo1 {
+  width: 445px;
+  height: 338px;
+  margin-left: 190px;
+  margin-top: 283px;
+  margin-right: 109px;
+  border-radius: 55px 0 0 0;
+}
+.articulo1 h1 {
+  font-family: 'Mulish', serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 56px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.articulo1 p {
+  font-family: 'Mulish', serif;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7d7987;
+}
+
+.articulo1 button {
+  width: 200px;
+  height: 56px;
+  top: 564px;
+  left: 190px;
+  gap: 0px;
+  border-radius: 55px;
+  opacity: 0px;
+  background-color: #458ff6;
+  font-family: 'Mulish', serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 45px;
+  color: #ffffff;
+}
+.articulo2 img {
+
+  width: 693px;
+  height: 598px;
+  top: 177px;
+  left: 744px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 84px;
+}
+
+#seccion1 {
+  display: flex;
+}
+#logo_trafalgar {
+  width: 160px;
+  height: 41px;
+}
