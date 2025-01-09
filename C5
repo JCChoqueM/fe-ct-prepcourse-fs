@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Ejemplo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="navigate('home')">Home</a></li>
+            <li><a href="#" onclick="navigate('about')">About</a></li>
+            <li><a href="#" onclick="navigate('contact')">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <!-- El contenido dinámico se cargará aquí -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

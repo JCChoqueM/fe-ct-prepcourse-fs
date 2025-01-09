@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="navigate('home')">Home</a></li>
+            <li><a href="#" onclick="navigate('about')">About</a></li>
+            <li><a href="#" onclick="navigate('contact')">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <!-- El contenido dinámico se cargará aquí -->
+        <form id="registerForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="app.js"></script>    <body>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="navigate('home')">Home</a></li>
+                <li><a href="#" onclick="navigate('about')">About</a></li>
+                <li><a href="#" onclick="navigate('contact')">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <!-- El contenido dinámico se cargará aquí -->
+            <form id="registerForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <script src="app.js"></script>
+    </body>    <body>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="navigate('home')">Home</a></li>
+                <li><a href="#" onclick="navigate('about')">About</a></li>
+                <li><a href="#" onclick="navigate('contact')">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <!-- El contenido dinámico se cargará aquí -->
+            <form id="registerForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <script src="app.js"></script>
+        <script>
+            document.getElementById('registerForm').addEventListener('submit', function(event) {
+                var username = document.getElementById('username').value;
+                var email = document.getElementById('email').value;
+                var password = document.getElementById('password').value;
+    
+                if (username === '' || email === '' || password === '') {
+                    alert('Todos los campos son obligatorios.');
+                    event.preventDefault();
+                } else if (!validateEmail(email)) {
+                    alert('Por favor, ingrese un correo electrónico válido.');
+                    event.preventDefault();
+                } else if (password.length < 6) {
+                    alert('La contraseña debe tener al menos 6 caracteres.');
+                    event.preventDefault();
+                }
+            });
+    
+            function validateEmail(email) {
+                var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return re.test(email);
+            }
+        </script>
+    </body>
+    </html>
+    </html>
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="navigate('home')">Home</a></li>
+            <li><a href="#" onclick="navigate('about')">About</a></li>
+            <li><a href="#" onclick="navigate('contact')">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <!-- El contenido dinámico se cargará aquí -->
+        <form id="registerForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
