@@ -3,8 +3,11 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos retorna 0. Si se pasa un argumento, simplemente retórnalo.
   // [PISTA]: "arguments" es un arreglo.
   // Tu código:
-  console.log(Array.isArray(arguments));
-  console.log(typeof(arguments));
+let resultado = 1;
+for (let i = 0; i < arguments.length; i++) {
+  resultado *= arguments[i];
+}
+return arguments.length === 0 ? 0 : resultado;
 }
 multiplicarArgumentos(5, 5);
 multiplicarArgumentos();
